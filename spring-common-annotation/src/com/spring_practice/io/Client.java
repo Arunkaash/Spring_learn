@@ -12,7 +12,8 @@ public class Client {
 		ApplicationContext context = new AnnotationConfigApplicationContext(CollegeConfig.class);
 		System.out.println("beans.xml file loaded");
 		College college = context.getBean("collegeBean", College.class);
-		System.out.println("College object is created by spring"+college);
+		System.out.println("College object is created by spring" + college);
+		System.out.println("College object is created by spring" + college);
 
 	}
 
